@@ -1,0 +1,323 @@
+ #root {
+  max-width: 1280px;
+ 
+  text-align: center;
+  height:100% ;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.melo {
+  position: fixed;
+  top: 10px; /* Adjust the top position as needed */
+  left: 10px; /* Adjust the left position as needed */
+  width: 250px; /* Adjust the width as needed */
+  height: auto; 
+}
+.title {
+  font-family:' Verdana, sans-serif' ; /* Replace "Your Font Name" with the name of the font you want to use */
+  font-weight: bold;
+  font-size: 40px; /* Adjust the font size as needed */
+  color:white; /* Change the color to your desired color */
+  text-align: center; /* Align the text to the center */
+  margin-top: 10px; /* Add some top margin */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 200px;
+  margin: auto;
+  color: black;
+  padding: 20px; /* Add padding to create space around the form */
+  border: 2px solid #ccc; /* Add a border around the form */
+  border-radius: 10px; /* Add rounded corners to the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+
+
+/* form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
+  color: black;
+
+} */
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+ nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+
+
+.nav-items {
+  display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+
+/* UserDetails.css */
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center text content */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.user-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.logout-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Add new CSS for layout */
+.user-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+  width: 300px; /* Set a fixed width for better alignment */
+  margin-bottom: 20px; /* Add space between user inputs and logout button */
+}
+
+
+/* App.css */
+
+.app {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  height : 1000px;
+} /* UserDetails.css */
+
+.profile {
+  position: relative;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.edit-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+/* .row1{
+  display:flex;
+}
+.row2{
+  display:flex;
+}
+.song{
+  display:flex;
+} */
+
+.left {
+  list-style: none; /* Remove the bullets */
+  padding: 0; /* Remove default padding */
+}
+
+/* Style for the login page container */
+.login {
+  position: relative;
+  height: 100vh; /* Adjust height as needed */
+  overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+/* Style for the background image */
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('C:\Users\Hp\Desktop\lyrix\my-react-app\public\loginbg.jpg'); /* Replace 'your-gif-url.gif' with the URL of your GIF */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  /* Adjust the opacity as needed */
+  z-index: -1; /* Place the background behind other content */
+}
+
+/* Style for the login box */
+.loginBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Additional styling for the login form within the box */
+.home{
+background-color:gray;
+}
+.sidebar {
+  display: flex; /* Use flexbox to create a vertical bar */
+  flex: 0 0 20%;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: flex-start; /* Align items at the start of the container (top) */
+  align-items: center; /* Align items at the center horizontally */
+  height: 100vh; /* Set height to fill the entire viewport */
+  width: 100px; /* Set width for the sidebar */
+  background-color:black; /* Set background color */
+  padding: 20px; /* Add padding to the sidebar */
+}
+.sidebar ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.sidebar li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
+
+.img {
+  width: 200px; /* Adjust logo width */
+  height: auto; /* Maintain aspect ratio */
+}
+.content {
+  display: flex;
+  justify-content:center; /* Align content to the right */
+  align-items: center; /* Align content vertically at the center */
+  height: 100vh; /* Set height to fill the entire viewport */
+  padding: 0 20px; /* Add horizontal padding */
+  flex: 1; /* Allow content to grow and fill remaining space */
+ 
+}
+
+.recommended-songs {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  align-items: center; /* Align items horizontally at the center */
+}
+
+.row1, .row2 {
+  display: flex;
+  justify-content: space-between; /* Add space between items */
+  width: 50%; /* Set width for each row */
+}
+
+.song {
+  margin-bottom: 20px; /* Add margin between songs */
+}
+
+/* Additional styling for song details */
+.song-details {
+  text-align: center; /* Center align song details */
+}
+.search{
+  display: flex; /* Use flexbox to align items */
+  background-image: linear-gradient(to bottom, gray, #fff); 
+  }
+
+.see h2{
+  color: black;
+}
+.history-page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+background-image: url('C:\Users\Hp\Desktop\lyrix\my-react-app\public\hist.jpg');  
+background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  
+  z-index: -1; 
+}
+.hist{
+  color: black;
+}
+.history-list{
+  list-style: none;
+  font-weight: bold;
+}
+.Wel{
+  color: #173555;
+}
+.user-details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('C:\Users\Hp\Desktop\lyrix\my-react-app\public\user.jpg'); /* Replace 'your-gif-url.gif' with the URL of your GIF */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image */
+  
+  z-index: -1; /* Place the background behind other content */
+}
+.quote {
+ 
+  width: 250px; /* Adjust logo width */
+  height: auto; /* Maintain aspect ratio */
+}
