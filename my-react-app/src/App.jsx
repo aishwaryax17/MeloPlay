@@ -5,14 +5,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Login from './components/Login.jsx';
 
-
-
-
-
-
-
-
-
   const App = () => {
     const [user, setUser] = useState({
       username: 'exampleUser',
@@ -23,7 +15,7 @@ import Login from './components/Login.jsx';
   
   return (
     <>
-    
+    <Link to="/"></Link>
    <Login/>
 
     </>

@@ -10,8 +10,14 @@ import Search from './components/Search.jsx'
 
  import UserDetails from './components/UserDetails.jsx'
  const router=createBrowserRouter([
+ {
+  path:"/",
+  element:<App/>
+
+ },
  
-  {
+  { 
+
     path:"/Login",
   element:<Login/>
   },

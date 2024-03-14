@@ -8,16 +8,11 @@ const Login = () => {
  
   const [password, setPassword] = useState('');
   
-   
-  
-
-  
-
-  
   return (
 
     <div class="login">
       <div className='bg' ></div>
+  
 <div className='top'>
      <img src="logo.png" alt="logo" className='melo'></img>
     <div className='title' ><h2>LOGIN</h2></div>
@@ -49,6 +44,7 @@ const Login = () => {
       </form>
       </div>
     </div>
+    
   );
 };
 
